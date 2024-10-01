@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}Form{% endblock %}
+
+{% block content %}
+    <!--page content-->
+        <div class="container mt-3">
+  <h2>Let us contact you</h2>
+  <form action="/f1">
+    <div class="mb-3 mt-3">
+      <label for="email">Email: <p class="optional">(optional)</p> </label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <button type="submit" class="btn btn-primary" onclick="document.loaction='form1.html' ">Next</button>
+  </form>
+</div>
+
+{% endblock %}
